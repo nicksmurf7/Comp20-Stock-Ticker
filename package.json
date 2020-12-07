@@ -2,9 +2,9 @@
   "name": "selectapp",
   "version": "1.0.0",
   "description": "node app",
-  "main": "result.js",
+  "main": "get.js",
   "scripts": {
-  "start": "node result.js"
+  "start": "node get.js"
 },
   "repository": {
   "type": "git",
