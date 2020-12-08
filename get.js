@@ -3,7 +3,7 @@ var url = require('url');
 var port = process.env.PORT || 3000;
 
 const MongoClient = require('mongodb').MongoClient;
-const db_url = mongodb+srv://nickmurphy1:108Surfwalk@cluster0.xj4qk.mongodb.net/?retryWrites=true&w=majority";
+const db_url = "mongodb+srv://nickmurphy1:108Surfwalk@cluster0.xj4qk.mongodb.net/?retryWrites=true&w=majority";
 
 
 http.createServer(function(req, res) {
@@ -53,8 +53,8 @@ async function find(type, input, query) {
             useUnifiedTopology: true
         });
         await client.connect();
-        var dbo = client.db("companies");
-        var coll = dbo.collection("companies");
+        var dbo = client.db("Companies");
+        var coll = dbo.collection("Companies");
         var options = createOption(type);
         var promise;
 
