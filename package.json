@@ -1,5 +1,5 @@
 {
-  "name": "selectapp",
+  "name": "get",
   "version": "1.0.0",
   "description": "node app",
   "main": "get.js",
