@@ -1,5 +1,5 @@
 {
-  "name": "get",
+  "name": "getapp",
   "version": "1.0.0",
   "description": "node app",
   "main": "get.js",
